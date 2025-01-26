@@ -1,7 +1,5 @@
 # Style AI: Smart Clothing Selection App
 
-![Style AI Banner](https://via.placeholder.com/800x200?text=Style+AI+-+Smart+Clothing+Selection+App)
-
 Style AI is an AI-powered fashion assistant designed to recommend the best clothing combinations based on user-provided text prompts. This app leverages cutting-edge machine learning technologies to ensure personalized and reliable recommendations.
 
 Download My App at - https://drive.google.com/file/d/1r_nF7Cip-RtrA3jnwvDdAfdRb9i1nAwm/view?usp=sharing
