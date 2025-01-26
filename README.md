@@ -1,4 +1,4 @@
-# StyleAi
+# StyleAI
 
 Developed AI-powered fashion assistant capable of recommending optimal cloths based on
 user-provided text prompts.
