@@ -2,7 +2,7 @@
 
 Style AI is an AI-powered fashion assistant designed to recommend the best clothing combinations based on user-provided text prompts. This app leverages cutting-edge machine learning technologies to ensure personalized and reliable recommendations.
 
-Download My App at - https://drive.google.com/file/d/1USf1jiUoaiWanRN4fW7aw2uqSeA9np9W/view?usp=sharing
+Download My App at - https://drive.google.com/file/d/1v6c2LUESjLOCXxcuDkEc3lP7myeL8Hy-/view?usp=sharing
 
 ## Features
 
