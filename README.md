@@ -21,7 +21,7 @@ Download My App at - https://drive.google.com/file/d/1xj9OtB23SurrFqgCXHnySdw0my
 
 ## How It Works
 
-1. **User Input**: Users provide a text prompt describing their desired style or event.
+1. **User Input**: Users provide a text prompt and images of there wardrobe clothes describing their desired style or event.
 2. **AI Processing**: The AI model analyzes the input and generates recommendations.
 3. **Output**: The app displays the best clothing combinations.
 
