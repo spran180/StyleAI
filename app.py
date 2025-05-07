@@ -60,7 +60,7 @@ def decode_jwt(token):
 
 
 @app.route('/signup', methods=['POST'])
-@limiter.limit("2 per minute")
+@limiter.limit("5 per minute")
 def signup():
     email = request.form['email']
     password = request.form['password']
@@ -85,7 +85,7 @@ def signup():
                     "response": response})
 
 @app.route('/confirm', methods=['POST'])
-@limiter.limit("2 per minute")
+@limiter.limit("5 per minute")
 def confirm():
     email = request.form['email']
     code = request.form['code']
@@ -104,7 +104,7 @@ def confirm():
                     "response": response})
 
 @app.route('/login', methods=['POST'])
-@limiter.limit("2 per minute")
+@limiter.limit("5 per minute")
 def login():
     email = request.form['email']
     password = request.form['password']
@@ -127,7 +127,7 @@ def login():
                     "response": response})
 
 @app.route('/upload', methods=['POST'])
-@limiter.limit("2 per minute")
+@limiter.limit("5 per minute")
 def upload():
     auth_header = request.headers.get('Authorization')
     username = None
@@ -145,9 +145,9 @@ def upload():
         return jsonify({"error": str("Invalid token!")})
     
     file = request.files['image']
-    image_key = f"{username}/{file.filename}"
+    
     image_id = str(uuid.uuid4())
-
+    image_key = f"{username}/{image_id}"
     try:
         s3.upload_fileobj(
             file,
@@ -176,7 +176,7 @@ def upload():
     return jsonify({"message": "Image uploaded successfully!"})
 
 @app.route('/predict', methods=['POST'])
-@limiter.limit("2 per minute")
+@limiter.limit("5 per minute")
 def predict():
     
     auth_header = request.headers.get('Authorization')
