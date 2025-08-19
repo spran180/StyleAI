@@ -6,7 +6,7 @@ Download My App at - https://drive.google.com/file/d/1xj9OtB23SurrFqgCXHnySdw0my
 
 ## Features
 
-- **AI-Powered Recommendations**: Provides optimal clothing combinations based on user input.
+- **AI-Powered Recommendations**: Provides optimal clothing combinations based on user input and WallMart API.
 - **Secure Authentication**: Uses AWS Cognito to ensure secure user access.
 - **Scalability**: Deployed on AWS EC2 for high availability.
 - **Image Storage**: AWS DynamoDB and AWS S3 integration for storing and retrieving user-specific images.
@@ -16,7 +16,7 @@ Download My App at - https://drive.google.com/file/d/1xj9OtB23SurrFqgCXHnySdw0my
 
 - **Backend**: Flask
 - **Frontend**: FlutterFlow
-- **Machine Learning**: PyTorch, OpenAI CLIP Model
+- **Machine Learning**: PyTorch, Gemini model based on custom Reasoning and Action Model, OpenAI CLIP Model
 - **Cloud Services**: AWS EC2, AWS DynamoDB, AWS Cognito, AWS S3
 
 ## How It Works
